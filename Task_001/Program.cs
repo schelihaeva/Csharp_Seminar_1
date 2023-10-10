@@ -12,16 +12,9 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if(a > b)
 {
-    System.Console.WriteLine($"Число {a} больше чем {b}");
+    System.Console.WriteLine(«Большее число: » + a + «, меньшее число: » + b);
 }
 else {
-    System.Console.WriteLine($"Число {a} меньше {b} ");
-}
-if(a = b)
-{
-    System.Console.WriteLine($"число {b} равно {a}");
-}
-      else {
-    System.Console.WriteLine($"Число {a} не равно {b} ");
+    System.Console.WriteLine($»Большее число: {a}, меньшее число: {b}»);
 }
     
