@@ -10,11 +10,14 @@ int a = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите второе число:");
 int b = Convert.ToInt32(Console.ReadLine());
 
-if(a > b)
+if (a > b)
 {
-    System.Console.WriteLine(«Большее число: » + a + «, меньшее число: » + b);
+    System.Console.WriteLine("больше");
 }
-else {
-    System.Console.WriteLine($»Большее число: {a}, меньшее число: {b}»);
+else if(a == b) {
+    System.Console.WriteLine("равен");
+
 }
-    
+    else{
+        System.Console.WriteLine("меньше");
+    }
