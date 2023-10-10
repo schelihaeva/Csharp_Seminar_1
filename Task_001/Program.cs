@@ -2,7 +2,7 @@
 //  a = 5; b = 7 -> max = 7
 //  a = 2; b = 10 -> max = 10
 // a = -9; b = -3 -> max = -3
-using System.Globalization;
+//using System.Globalization;
 
 Console.WriteLine("Введите 2 числа и мы тебе скажем какое из них больше");
 System.Console.WriteLine("Введите свое первое число");
@@ -18,7 +18,7 @@ if(Chto0){
     System.Console.WriteLine($"Число {a} больше чем {b}");
 }
 else if(Chto1){
-    System.Console.WriteLine($"Чмсла {a} и {b} равны");
+    System.Console.WriteLine($"Числа {a} и {b} равны");
 }
 else{
     System.Console.WriteLine($"число {b} больше чем {a}");
