@@ -10,16 +10,18 @@ int a = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите второе число:");
 int b = Convert.ToInt32(Console.ReadLine());
 
-bool Chto0 = a > b;
-bool Chto1 = a == b;
-bool Chto2 = a < b;
-
-if(Chto0){
+if(a > b)
+{
     System.Console.WriteLine($"Число {a} больше чем {b}");
 }
-else if(Chto1){
-    System.Console.WriteLine($"Числа {a} и {b} равны");
+else {
+    System.Console.WriteLine($"Число {a} меньше {b} ");
 }
-else{
-    System.Console.WriteLine($"число {b} больше чем {a}");
+if(a = b)
+{
+    System.Console.WriteLine($"число {b} равно {a}");
 }
+      else {
+    System.Console.WriteLine($"Число {a} не равно {b} ");
+}
+    
